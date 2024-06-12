@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draw</title>
+    <link rel="stylesheet" href="draw_css1.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+  </head>
+  <body>
+    <div class="toggle_size">
+      <div class="size_button">
+        <p>Select Size</p>
+        <button id="dec">-</button>
+        <p id="size">10</p>
+        <button id="inc">+</button>
+      </div>
+      <div class="clear_undo">
+        <button onclick="clearscreen()">Clear</button>
+        <button id="undo_btn">Undo</button>
+      </div>
+      <div id="colors">
+        <button id="red"></button>
+        <button id="blue"></button>
+        <button id="green"></button>
+        <button id="yellow"></button>
+        <button id="black"></button>
+        <button id="orange"></button>
+      </div>
+    </div>
+    <canvas class="canvas_area"></canvas>
+    <script src="draw_test1.js"></script>
+    
+  </body>
+</html>
+<!-- 18002583838 -->

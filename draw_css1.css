@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    user-select: none;
+    padding: 0;
+}
+.toggle_size{
+    background-color: #222326;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    color:#BFBFBF;
+    position: fixed;
+    top: 0;
+    
+}
+p{
+    font-size: 2rem;
+}
+
+.size_button{
+    display: flex;
+    align-items: center;
+    
+}
+.size_button button{
+    background-color: #8C8074;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#size{
+    color: #BFBFBF;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid;
+    background-color: #222326;
+    width: 50px;
+    text-align: center
+}
+#colors{
+    display: flex;
+    margin-right: 100px;
+    
+}
+.clear_undo button{
+    background-color: #8C8074;
+    width: 60px;
+    height: 30px;
+    
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#colors button{
+    width: 30px;
+    height: 30px;
+    border: 2.5px solid white;
+    border-radius: 15px;
+    margin-left: 10px;   
+}
+#red{
+    background-color:#FF0000 ;
+}
+#blue{
+    background-color:#0000FF ;
+}
+#green{
+    background-color: #00FF00;
+}
+#yellow{
+    background-color: #FFFF00;
+}
+#black{
+    background-color:#000000 ;
+}
+#orange{
+    background-color: orange;
+}
+
+
+
+
+
+
